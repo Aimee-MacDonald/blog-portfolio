@@ -1,0 +1,31 @@
+{
+  "name": "blog-portfolio",
+  "version": "1.0.0",
+  "description": "My Blog and Portfolio Rolled into One",
+  "engines": {
+    "node": "9.4.0"
+  },
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.16.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aimee-MacDonald/blog-portfolio.git"
+  },
+  "keywords": [
+    "Aimee",
+    "MacDonald",
+    "Blog",
+    "Portfolio"
+  ],
+  "author": "Aimee MacDonald",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Aimee-MacDonald/blog-portfolio/issues"
+  },
+  "homepage": "https://github.com/Aimee-MacDonald/blog-portfolio#readme"
+}
