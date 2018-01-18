@@ -1,1 +1,1 @@
-body{background-color:pink}.container{background-color:green}.container #blog{background-color:orange}.container #portfolio{background-color:purple}
+body{width:100%;height:100vh;margin:0;overflow:hidden}.container{background-color:green;width:100%;height:100%;display:flex;flex-flow:column}.homeNav{background-color:orange;border:1px solid black;width:100%;height:50%;display:flex;justify-content:center;align-items:center}.homeNav:hover{height:100%}.selected{background-color:orange;height:100%}.unselected{background-color:purple;height:10%}.unselected:hover{height:10%}
