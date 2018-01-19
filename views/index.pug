@@ -8,6 +8,7 @@ head
   title(Aimée)
 body
   .container
-    a(href="/blog", class="homeNav", id="blog") Blog
-    a(href="/portfolio", class="homeNav", id="portfolio") Portfolio
+    .homeNav
+      a(href="/portfolio", class="hnOption", id="portfolio") Portfolio
+      a(href="/blog", class="hnOption", id="blog") Blog
   script(src="index.js", charset="utf-8")
