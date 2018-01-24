@@ -1,6 +1,6 @@
 
-document.querySelector("#blog").href = "#0";
-document.querySelector("#portfolio").href = "#1";
+//document.querySelector("#blog").href = "#0";
+//document.querySelector("#portfolio").href = "#1";
 
 checkHash();
 
