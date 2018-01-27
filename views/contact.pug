@@ -1,0 +1,17 @@
+doctype html
+html(lang="en")
+head
+  meta(charset="UTF-8")
+  meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  meta(http-equiv="X-UA-Compatible", content="ie=edge")
+  link(rel="stylesheet", href="contact.css")
+  title(Aimée)
+body
+  form(action="sendMsg", method="post")
+    h1 Email Address
+    p Required if you Would like a Response
+    input(placeholder="Your Email", name="email")
+    h1 Message
+    textarea(placeholder="Dear Aimée..", name="message", required)
+    button(type="submit") Send
+    script(type="textarea", src="contact.js", charset="utf-8")
